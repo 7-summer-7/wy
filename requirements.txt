@@ -8,3 +8,4 @@ shap==0.42.1
 gunicorn==21.2.0
 setuptools>=68.0
 wheel
+xgboost
