@@ -1,0 +1,17 @@
+{
+  "feature_names": [
+    "Age",
+    "Duration",
+    "tIgE",
+    "SALT",
+    "25(OH)D3",
+    "Mutiple",
+    "Black_dot",
+    "Excl_mark",
+    "Short_lanugo",
+    "Site_4.0"
+  ],
+  "extra": {
+    "model": "DT"
+  }
+}

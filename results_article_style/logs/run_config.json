@@ -1,0 +1,7 @@
+{
+  "SEED": 3037,
+  "DATA_PATH": "data2.csv",
+  "TARGET_COL": "revisit",
+  "GLOBAL_SHAP_EXPLAIN_N": 500,
+  "GLOBAL_SHAP_BACKGROUND_N": 100
+}

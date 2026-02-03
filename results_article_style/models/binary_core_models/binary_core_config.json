@@ -1,0 +1,47 @@
+{
+  "feature_order": [
+    "Age",
+    "tIgE",
+    "SALT",
+    "Duration",
+    "25(OH)D3",
+    "Mutiple",
+    "Site_4.0",
+    "Black_dot",
+    "Excl_mark",
+    "Short_lanugo"
+  ],
+  "thresholds": {
+    "Age": 30,
+    "tIgE": 200,
+    "SALT": 25,
+    "Duration": 18,
+    "25(OH)D3": 17
+  },
+  "fixed_binary_features": [
+    "Mutiple",
+    "Site_4.0",
+    "Black_dot",
+    "Excl_mark",
+    "Short_lanugo"
+  ],
+  "resolved_continuous_columns": {
+    "Age": "Age",
+    "tIgE": "tIgE",
+    "SALT": "SALT",
+    "Duration": "Duration",
+    "25(OH)D3": "25(OH)D3"
+  },
+  "resolved_fixed_binary_columns": {
+    "Mutiple": "Mutiple",
+    "Black_dot": "Black_dot",
+    "Excl_mark": "Excl_mark",
+    "Short_lanugo": "Short_lanugo",
+    "Site_4.0": "Site_4.0"
+  },
+  "model_dir": "results_article_style\\models\\binary_core_models",
+  "stacking_model_path": "results_article_style\\models\\binary_core_models\\stacking.joblib",
+  "svm_model_path": "results_article_style\\models\\binary_core_models\\SVM.joblib",
+  "train_binary_core_csv": "results_article_style\\data_exports\\binary_core\\X_train_binary_core.csv",
+  "note": "Web calculator inputs are 10 binary values in feature_order; SVM SHAP is computed at binary-core feature level."
+}

@@ -1,0 +1,13 @@
+{
+  "feature_names": [
+    "meta_0",
+    "meta_1",
+    "meta_2",
+    "meta_3",
+    "meta_4"
+  ],
+  "extra": {
+    "type": "meta",
+    "model": "LogReg"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "gamma": 0.7067605057168586,
+  "cluster_numeric_features": [
+    "Age",
+    "Duration",
+    "tIgE",
+    "SALT",
+    "25(OH)D3",
+    "Mutiple",
+    "Yellow_dot",
+    "Black_dot",
+    "Excl_mark",
+    "Broken_hairs",
+    "Short_lanugo"
+  ],
+  "cluster_categorical_features": [
+    "Site"
+  ],
+  "k_candidates": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "elbow_k": 5,
+  "silhouette_best_k": 3,
+  "composite_k": 6,
+  "final_k": 3
+}
